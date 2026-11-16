@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://alisontdesign.com/sitemap.xml

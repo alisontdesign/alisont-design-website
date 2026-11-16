@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Example on AlisonT Design</title><link>https://alisontdesign.com/tags/example/</link><description>Recent content in Example on AlisonT Design</description><generator>Hugo -- gohugo.io</generator><language>en</language><managingEditor>alisontdesign@gmail.com (AlisonT Design)</managingEditor><webMaster>alisontdesign@gmail.com (AlisonT Design)</webMaster><copyright>© 2026 AlisonT Design Pte. Ltd. | [WhatsApp: (+65) 8826 1189](https://wa.me/6588261189), [(+65) 8989 1126](https://wa.me/6589891126) | alisontdesign@gmail.com | 619D Punggol Drive S(824619)</copyright><atom:link href="https://alisontdesign.com/tags/example/index.xml" rel="self" type="application/rss+xml"/><item><title>Kerning-adjusted (Example)</title><link>https://alisontdesign.com/catalogue/kerning-adjusted/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>alisontdesign@gmail.com (AlisonT Design)</author><guid>https://alisontdesign.com/catalogue/kerning-adjusted/</guid><description>&lt;style&gt;
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b {
+ display: grid;
+ grid-template-columns: repeat(3, 1fr);
+ gap: 4px;
+ margin: 1.5rem 0;
+}
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a {
+ display: block;
+ overflow: hidden;
+ border-radius: 4px;
+ line-height: 0;
+}
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a img,
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a video {
+ width: 100%;
+ height: auto;
+ display: block;
+ margin: 0;
+ transition: transform 0.2s;
+}
+ 
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a video {
+ aspect-ratio: 250 / 448;
+}
+ 
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a picture {
+ display: block;
+ margin: 0;
+}
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a:hover img,
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b a:hover video {
+ transform: scale(1.05);
+}
+ 
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b.insta-masonry {
+ display: flex;
+ align-items: flex-start;
+ gap: 4px;
+}
+.insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b.insta-masonry &gt; .insta-masonry-col {
+ flex: 1 1 0;
+ min-width: 0;
+ display: flex;
+ flex-direction: column;
+ gap: 4px;
+}
+@media (max-width: 640px) {
+ .insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b {
+ grid-template-columns: repeat(2, 1fr);
+ }
+}
+&lt;/style&gt;
+
+&lt;div id="gallery-6b852bbe9d8f4728e29293f3bcc4f73b" class="insta-gallery insta-grid-gallery-6b852bbe9d8f4728e29293f3bcc4f73b"&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-01_hu_f338a67f890ddb8e.webp" data-src-mobile="/catalogue/kerning-adjusted/img/kerning-adjusted-01_hu_57a10d8e200bb13b.webp" class="insta-gallery-item" data-media="image"&gt;
+ &lt;picture&gt;
+ &lt;source srcset="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-01_hu_73c49e20206abc21.webp" type="image/webp"&gt;
+ &lt;img src="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-01_hu_caf6ca5b6a45a5dc.jpg" width="600" height="249" alt="Kerning-adjusted (Example) photo 1" loading="lazy" class="nozoom"&gt;
+ &lt;/picture&gt;
+ &lt;/a&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-02_hu_813df003742963ce.webp" data-src-mobile="/catalogue/kerning-adjusted/img/kerning-adjusted-02_hu_cb0475289764fb6b.webp" class="insta-gallery-item" data-media="image"&gt;
+ &lt;picture&gt;
+ &lt;source srcset="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-02_hu_b5b68ed8cbb7522b.webp" type="image/webp"&gt;
+ &lt;img src="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-02_hu_46639bd43be57dad.jpg" width="600" height="135" alt="Kerning-adjusted (Example) photo 3" loading="lazy" class="nozoom"&gt;
+ &lt;/picture&gt;
+ &lt;/a&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-03_hu_f6bf8e323736021d.webp" data-src-mobile="/catalogue/kerning-adjusted/img/kerning-adjusted-03_hu_2719be3ec67f63e1.webp" class="insta-gallery-item" data-media="image"&gt;
+ &lt;picture&gt;
+ &lt;source srcset="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-03_hu_6ecba690b6a5fc86.webp" type="image/webp"&gt;
+ &lt;img src="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-03_hu_d2f17d2d3a598908.jpg" width="600" height="135" alt="Kerning-adjusted (Example) photo 5" loading="lazy" class="nozoom"&gt;
+ &lt;/picture&gt;
+ &lt;/a&gt;
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ &lt;a href="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-04_hu_6aa52a10bffdc0b4.webp" class="insta-gallery-item" data-media="image"&gt;
+ &lt;picture&gt;
+ &lt;source srcset="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-04_hu_46f6725f3763fdea.webp" type="image/webp"&gt;
+ &lt;img src="https://alisontdesign.com/catalogue/kerning-adjusted/img/kerning-adjusted-04_hu_e039b33b35afb1f2.jpg" width="600" height="1208" alt="Kerning-adjusted (Example) photo 6" loading="lazy" class="nozoom"&gt;
+ &lt;/picture&gt;
+ &lt;/a&gt;
+ 
+ 
+ 
+ 
+&lt;/div&gt;
+
+
+&lt;ul&gt;
+&lt;li&gt;Kerning-adjusted design eliminates awkward gaps between characters, giving your car plate&amp;rsquo;s text a flawless, high-end finish.&lt;/li&gt;
+&lt;/ul&gt;</description><media:content xmlns:media="http://search.yahoo.com/mrss/" url="https://alisontdesign.com/catalogue/kerning-adjusted/feature.jpeg"/></item></channel></rss>
