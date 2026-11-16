@@ -36,6 +36,107 @@
 </video>
 <div id="video-overlay"></div>
 
+{{/* ===== Stats band + gliding Instagram strip =====
+     PLATES_MADE: edit the number of plates made in data-count below. */}}
+<section class="astat" aria-label="AlisonT by the numbers">
+  <div class="astat-grid">
+    <div class="astat-cell">
+      <div class="astat-num"><span id="astat-count" data-count="455">0</span><span class="plus">+</span></div>
+      <div class="astat-lbl">custom plates made<br>&amp; counting</div>
+    </div>
+    <div class="astat-cell">
+      <div class="astat-num">100%</div>
+      <div class="astat-lbl">crafted in singapore<br>from scratch</div>
+    </div>
+    <div class="astat-cell">
+      <div class="astat-num">3MM</div>
+      <div class="astat-lbl">premium lasercut casted acrylic<br>MIPA CS95 lacquer &amp; paint system</div>
+    </div>
+  </div>
+
+  <div class="astat-ig">
+    <div class="astat-ig-head">
+      <span class="astat-ig-t">Follow @alisontdesign</span>
+      <a class="astat-ig-a" href="https://www.instagram.com/alisontdesign/" target="_blank" rel="noopener">Instagram →</a>
+    </div>
+    <div class="astat-marquee">
+      <div class="astat-track">
+        {{ $ig := slice (dict "c" "DXa7KWgAaf0" "t" "reel") (dict "c" "DfqintFmgAW" "t" "p") (dict "c" "Dfod70WhI63" "t" "reel") (dict "c" "DfjD6AKvzLl" "t" "reel") (dict "c" "DBczwRXSq_4" "t" "reel") (dict "c" "DfYtL7ZB-rj" "t" "reel") (dict "c" "DBQ22GyB-sQ" "t" "reel") (dict "c" "DfOWn_bB5zE" "t" "reel") (dict "c" "DfBdNnwhOll" "t" "reel") (dict "c" "De9A1loBWHa" "t" "reel") (dict "c" "De3vFcGhwoW" "t" "reel") (dict "c" "Dd0JT2OmpnC" "t" "p") }}
+        {{ range (seq 2) }}{{ range $i := $ig }}<a class="astat-ig-item{{ if eq $i.t "reel" }} reel{{ end }}" href="https://www.instagram.com/{{ $i.t }}/{{ $i.c }}/" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true"><img src="/img/ig/{{ $i.c }}.jpg" alt="Instagram post by alisontdesign" loading="lazy" decoding="async"></a>{{ end }}{{ end }}
+      </div>
+    </div>
+  </div>
+</section>
+
+<style>
+  .astat { max-width: 1100px; margin: 2.5rem auto 1rem; padding: 0 1rem; }
+  .astat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .astat-cell {
+    border: 1px solid #23262f; border-radius: 14px; background: rgba(16,18,26,.78);
+    padding: 22px 18px; text-align: center; backdrop-filter: blur(6px);
+  }
+  .astat-num {
+    font-family: Michroma, sans-serif; font-size: clamp(26px, 4.4vw, 40px);
+    color: #a78bfa; line-height: 1; letter-spacing: 1px;
+    font-variant-numeric: tabular-nums;
+  }
+  .astat-num .plus { color: #f5d400; }
+  .astat-lbl {
+    margin-top: 10px; font-size: 12.5px; letter-spacing: .06em; text-transform: uppercase;
+    color: #9ca3af; line-height: 1.5;
+  }
+  .astat-ig { margin-top: 14px; border: 1px solid #23262f; border-radius: 14px;
+    background: rgba(16,18,26,.78); overflow: hidden; }
+  .astat-ig-head { display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 16px; border-bottom: 1px solid #23262f; }
+  .astat-ig-t { font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: #a78bfa; }
+  .astat-ig-a { font-size: 12.5px; font-weight: 700; color: #c4b5fd; text-decoration: none; }
+  .astat-ig-a:hover { color: #a78bfa; }
+  .astat-marquee { overflow: hidden; padding: 12px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  .astat-track { display: flex; gap: 12px; width: max-content; animation: astat-slide 60s linear infinite; }
+  .astat-marquee:hover .astat-track { animation-play-state: paused; }
+  .astat-track a { flex: 0 0 auto; border-radius: 10px; overflow: hidden; border: 1px solid #23262f; position: relative; }
+  .astat-track a.reel::after { content:"▶"; position: absolute; top: 6px; right: 8px;
+    font-size: 10px; color: #fff; background: rgba(0,0,0,.55); border-radius: 4px; padding: 2px 5px; }
+  .astat-track img { width: 132px; height: 132px; object-fit: cover; display: block; transition: transform .3s; }
+  .astat-track a:hover img { transform: scale(1.06); }
+  @keyframes astat-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .astat-track { animation: none; } }
+  @media (max-width: 700px) {
+    .astat-grid { grid-template-columns: 1fr; }
+    .astat-track img { width: 104px; height: 104px; }
+  }
+</style>
+<script>
+  (function () {
+    var el = document.getElementById("astat-count");
+    if (!el) return;
+    var target = parseInt(el.getAttribute("data-count"), 10) || 0;
+    var done = false;
+    function fmt(n) { return n.toLocaleString("en-SG"); }
+    function run() {
+      if (done) return; done = true;
+      var t0 = null, dur = 1600;
+      function tick(t) {
+        if (!t0) t0 = t;
+        var p = Math.min((t - t0) / dur, 1);
+        el.textContent = fmt(Math.floor(target * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(tick); else el.textContent = fmt(target);
+      }
+      requestAnimationFrame(tick);
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { run(); io.disconnect(); } });
+      }, { rootMargin: "120px 0px" });
+      io.observe(el);
+    } else { run(); }
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      done = true; el.textContent = fmt(target);
+    }
+  })();
+</script>
+
 {{/* JotForm widget ID - SINGLE SOURCE. JotForm mounts into the div whose id
      is "JFWebsiteWidget-<id>", so this value must be identical in the div and
      in the loader below. Change it here only. */}}

@@ -9,13 +9,13 @@ description = "Discover Singapore's first 3D-printed number plates."
   isoCode = "en"
   rtl = false
   dateFormat = "2 January 2006"
-  logo = "img/alisont_logo.webp"
+  logo = ""   # round logo removed from header
   description = "🇸🇬 Singapore's First 3D-Printed Number Plates 🇸🇬"
 
 [params.author]
   name = "AlisonT Design"
   email = "alisontdesign@gmail.com"
-  image = "img/alisont_logo.jpeg"
+  image = ""   # round logo avatar hidden on homepage
   headline = "🇸🇬 Singapore's First 3D-Printed Number Plates 🇸🇬"
   bio = "🇸🇬 Singapore's First 3D-Printed Number Plates 🇸🇬"
   links = [
