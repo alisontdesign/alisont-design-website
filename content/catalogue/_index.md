@@ -9,6 +9,10 @@ cascade:
   invertPagination: true
 ---
 
+<div style="border:1px solid #a78bfa40;background:rgba(167,139,250,.08);border-radius:12px;padding:14px 18px;margin:6px 0 18px;font-size:15px">
+🤔 Not sure which finish suits your car? We broke it down in plain language → <a href="/articles/how-to-choose-a-plate/" style="font-weight:700">How to choose your custom number plate</a>
+</div>
+
 <div id="catalogue-filter" class="flex flex-wrap gap-2 mb-8 mt-4">
 <style>
 #catalogue-filter button.active { background-color: var(--color-primary-600); color: white; border-color: var(--color-primary-600); }
