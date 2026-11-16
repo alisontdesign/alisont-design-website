@@ -21,6 +21,10 @@
   weight = 10
   
 [[main]]
+  name = "Checksum Tool"
+  url = "/plate-checksum/"
+  weight = 10
+[[main]]
   name = "Contact"
   pageRef = "contact"
   weight = 10
