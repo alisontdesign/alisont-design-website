@@ -41,8 +41,8 @@ With the lettering type and base plate decided, we move on to the lettering colo
 
 **White / yellow base**
 
-- **Black letterings:** Solid Black, [Pearl Black](/catalogue/pearl-black/)
-- **Design letterings:** [Glossy Black Euro](/catalogue/glossy-black-euro/), [Carbon Weave](/catalogue/carbon-weave/), [Rough Matte](/catalogue/rough-matte/). *Lacquer is NOT applicable to these designs.*
+- **Black letterings:** [Glossy Black Euro](/catalogue/glossy-black-euro/), [Pearl Black](/catalogue/pearl-black/)
+- **Design letterings:** [Rainbow Stars](/catalogue/rainbow-stars/), [Carbon Weave](/catalogue/carbon-weave/), [Rough Matte](/catalogue/rough-matte/). *Lacquer is NOT applicable to these designs.*
 
 **Then choose the lacquer.** For Solid White, Solid Black, Metallic Silver and Pearl White/Black letterings, you decide whether the letter stays **naked**, gets **glossy lacquer**, or gets **matte lacquer**.
 
@@ -67,14 +67,13 @@ Honestly, just get the plate that you want! It's your car! Full black-out car wi
 ## 6. Want it to be *yours*?
 
 - Add a **3D logo** — brand emblem or your own design ([Custom 3D Logo](/catalogue/custom-3d-logo/), [Custom Logo](/catalogue/custom-logo/)).
-- **Kerning work** — we can tighten or tune character spacing for an exact look; see the [kerning-adjusted example](/catalogue/kerning-adjusted/).
-- **Acrylic case / frameless kit** — the [custom diecast acrylic case](/catalogue/custom-diecast-acrylic-case/) finishes the install.
-- On a **bike or e-bike?** Two-wheeler sets have their own sizes — see [motorcycle plates](/catalogue/motorcycle-plates/) and [e-bike plates](/catalogue/e-bike-plates/).
+- **Kerning adjustment work** — we can tighten or tune character spacing for an exact look; see the [kerning-adjusted example](/catalogue/kerning-adjusted/).
+- **Frameless kit** — We offer frameless installtion strictly for our customer only. 3M Double Sided Tape, Velcro Tape or Our own design Removeable Frameless Mounting Kit to finishes the installation. Of course we also have blanks brackets!
 
 ## Still unsure? Come see samples in person
 
 Arrange an appointment with us to test out the samples we have on hand — see them in real life, on your car!
 
-Or send us a photo of your car (any angle) plus your registration number on WhatsApp — we'll shortlist 2–3 combinations that suit it, no obligation. Every set is made in our Punggol workshop in about 1~5 days, with free fitting when you collect, or delivery islandwide.
+Or send us a photo of your car (any angle) plus your registration number on WhatsApp — we'll shortlist 2–3 combinations that suit it, no obligation. Every plate is freshly made in our Punggol workshop in about 1~5 days, with free installation when you collect, or delivery islandwide (Fees and avaibility applies.)
 
 Not sure your number's checksum letter is right? [Check it in 5 seconds here →](/plate-checksum/) · [Order on WhatsApp](https://wa.me/6588261189?text=Hi%20Sean%2C%20help%20me%20choose%20a%20plate%3A)
