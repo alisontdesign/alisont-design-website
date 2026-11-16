@@ -11,20 +11,11 @@ showRelated: true
 showBreadCrumbs: true
 ---
 
-Most cars wear black-on-yellow at the back and black-on-white at the front — but Singapore actually has a whole colour code that tells inspectors (and other drivers) exactly what a vehicle is. Here is the full legend, sourced from LTA rules and the official registration scheme.
+Most cars wear black base with white/silver/grey letterings or black-on-yellow at the back and black-on-white at the front — but Singapore actually has a whole colour code that tells inspectors (and other drivers) exactly what a vehicle is. Here is the full legend, sourced from LTA rules and the official registration scheme.
 
 ## Private cars: the standard scheme
 
-Standard private cars carry black characters on a white/silver reflective front plate and black on reflective yellow at the rear [1]. The characters themselves must meet fixed dimensions — 70 mm high, 10 mm stroke, 50 mm wide — set out in the Road Traffic rules [3].
-
-## The colour code at a glance
-
-- Red on black (front red on black; rear reflective red on black): private-hire cars and certain goods and service vehicles [2].
-- Reflective red: Off-Peak cars — the scheme that gives rebates on the Additional Registration Fee for avoiding peak-hour driving [2]. Form R10 confirms OPC plates are white lettering on a red background [10].
-- Green: vehicles exempted from Electronic Road Pricing charges, such as driving-school cars used for lessons [2].
-- Black with a white "RU" on the right: Restricted Use vehicles under the former Office of Public Transport [2].
-- Black plates with reflective white lettering (front white on black; rear reflective white on black): vintage vehicles registered before the 1971 colour change [2].
-- White front plate with black characters and reflective black-on-yellow rear for classic vehicles registered before 1973 under the Classic Vehicle Scheme [2].
+Standard private cars carry black base with white/silver/grey letterings or black characters on a white/silver reflective front plate and black on reflective yellow at the rear [1]. The characters themselves must meet fixed dimensions — 70 mm high, 10 mm stroke, 50 mm wide — set out in the Road Traffic rules [3].
 
 ## Goods vehicles: G, Y and X
 
