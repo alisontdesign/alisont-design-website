@@ -33,9 +33,13 @@ cascade:
     text-decoration: none; }
   .ct-btn:hover { filter: brightness(1.08); }
   @media (max-width: 720px) { .ct-grid { grid-template-columns: 1fr; } }
+  .ct-wa { flex-direction: row-reverse; }
+  .ct-wa > div:not(.ct-ic) { flex: 1 1 auto; }
+  .ct-grid, .ct-card, .ct-wa { max-width: none !important; width: 100%; }
+  .ct-wa .ct-ic { width: 56px; }
 </style>
 
-Tell us your registration number and the look you want — most orders are settled in a single WhatsApp chat, finished in about a day, and fitted at our workshop free of charge (delivery &amp; installation available islandwide, fee applies).
+Tell us your registration number and the look you want — most orders are settled in a single WhatsApp chat, finished in about 1~5 days, and fitted at our workshop free of charge (delivery &amp; installation available islandwide, fee applies).
 
 <div class="ct-grid">
   <div class="ct-card ct-wa">
@@ -44,9 +48,9 @@ Tell us your registration number and the look you want — most orders are settl
     </div>
     <div>
       <div class="ct-k">WhatsApp — fastest way to order</div>
-      <div class="ct-v"><a href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20want%20a%20set%3A">+65 8826 1189</a> (Sean)<br><a href="https://wa.me/6589891126">+65 8989 1126</a> (assistant)</div>
+      <div class="ct-v"><a href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20want%20a%20set%3A">+65 8826 1189</a><br><a href="https://wa.me/6589891126">+65 8989 1126</a></div>
       <a class="ct-btn" href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20want%20a%20set%3A">Chat on WhatsApp →</a>
-      <div class="ct-note">Send your reg no + a photo of your current plate or the look you want.</div>
+      <div class="ct-note">Send us photo of your car models or anythings you have in mind! Cheers!</div>
     </div>
   </div>
   <div class="ct-card">

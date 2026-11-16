@@ -97,3 +97,15 @@ body, html, .dark body, .bg-neutral, .dark .bg-neutral-800, #site-main {
   .lp-float svg { width: 22px; height: 22px; }
 }
 
+
+/* ---- wider content column (site-wide) ---- */
+body.max-w-7xl { max-width: 1400px !important; }
+@media (min-width: 1024px) {
+  body.max-w-7xl { padding-left: 6rem !important; padding-right: 6rem !important; }
+}
+
+/* wider prose column */
+.prose { max-width: 90ch !important; }
+
+/* let content columns use the wider body */
+.article-content.max-w-prose { max-width: 90ch !important; }
