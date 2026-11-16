@@ -1,47 +1,30 @@
-{{ $jsHome := resources.Get "js/home.js" | resources.Minify | resources.Fingerprint (.Site.Params.fingerprintAlgorithm | default "sha512") }}
-<div id="background">
-  {{ partial "home/background.html" . }}
-</div>
-<div id="hero" style="display:none">
-  {{ partial "home/hero.html" . }}
-</div>
-<div id="profile" style="display:none">
-  {{ partial "home/profile.html" . }}
-</div>
-<div id="card" style="display:none">
-  {{ partial "home/card.html" . }}
-</div>
-<div id="page" style="display:none">
-  {{ partial "home/page.html" . }}
-</div>
-<!-- <section class="max-w-7xl mx-auto px-4"> -->
-<!--   {{ partial "sponsors.html" . }} -->
-<!-- </section> -->
-
-<!-- <section class="max-w-7xl mx-auto px-4"> -->
-<!--   {{ partial "contributors.html" . }} -->
-<!-- </section> -->
-
-<!-- <section> -->
-<!--   {{ partial "recent-articles-demo.html" . }} -->
-<!-- </section> -->
-<!-- <script -\-> -->
-<!-- <\!--   defer -->
-<!--   type="text/javascript" -->
-<!--   src="{{ $jsHome.RelPermalink }}" -->
-<!--   integrity="{{ $jsHome.Data.Integrity }}"></script> -->
+{{/* ===== AlisonT homepage — concept design, live build =====
+     Sections: hero (over fixed bg-video) / stats band + IG reel /
+     catalogue preview / spec sheet / the line / google reviews / CTA.
+     PLATES_MADE constant: data-count below. */}}
 
 <video autoplay loop muted playsinline id="video-bg">
   <source src="{{ "bg-video.mp4" | relURL }}" type="video/mp4">
 </video>
 <div id="video-overlay"></div>
 
-{{/* ===== Stats band + gliding Instagram strip =====
-     PLATES_MADE: edit the number of plates made in data-count below. */}}
+{{/* ---------- HERO ---------- */}}
+<header class="lp-hero">
+  <span class="lp-kicker">Singapore's first 3D custom plate workshop</span>
+  <h1 class="lp-h1">Custom plates,<br><em>crafted in-house.</em></h1>
+  <p class="lp-sub">Every set starts as a 3D model on our screens and leaves our Punggol workshop finished, lacquered and road-legal. No resellers. No middleman. Just the plate crafted 100% from scratch.</p>
+  <div class="lp-ctas">
+    <a class="lp-btn g" href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20want%20a%20set%3A">Order on WhatsApp</a>
+    <a class="lp-btn o" href="/catalogue/">View catalogue</a>
+  </div>
+  <div class="lp-social">{{ partial "author-links.html" . }}</div>
+</header>
+
+{{/* ---------- STATS BAND + IG REEL ---------- */}}
 <section class="astat" aria-label="AlisonT by the numbers">
   <div class="astat-grid">
     <div class="astat-cell">
-      <div class="astat-num"><span id="astat-count" data-count="455">0</span><span class="plus">+</span></div>
+      <div class="astat-num"><span id="astat-count" data-count="1245">0</span><span class="plus">+</span></div>
       <div class="astat-lbl">custom plates made<br>&amp; counting</div>
     </div>
     <div class="astat-cell">
@@ -68,80 +51,50 @@
   </div>
 </section>
 
-<style>
-  .astat { max-width: 1100px; margin: 2.5rem auto 1rem; padding: 0 1rem; }
-  .astat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
-  .astat-cell {
-    border: 1px solid #23262f; border-radius: 14px; background: rgba(16,18,26,.78);
-    padding: 22px 18px; text-align: center; backdrop-filter: blur(6px);
-  }
-  .astat-num {
-    font-family: Michroma, sans-serif; font-size: clamp(26px, 4.4vw, 40px);
-    color: #a78bfa; line-height: 1; letter-spacing: 1px;
-    font-variant-numeric: tabular-nums;
-  }
-  .astat-num .plus { color: #f5d400; }
-  .astat-lbl {
-    margin-top: 10px; font-size: 12.5px; letter-spacing: .06em; text-transform: uppercase;
-    color: #9ca3af; line-height: 1.5;
-  }
-  .astat-ig { margin-top: 14px; border: 1px solid #23262f; border-radius: 14px;
-    background: rgba(16,18,26,.78); overflow: hidden; }
-  .astat-ig-head { display: flex; justify-content: space-between; align-items: center;
-    padding: 12px 16px; border-bottom: 1px solid #23262f; }
-  .astat-ig-t { font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: #a78bfa; }
-  .astat-ig-a { font-size: 12.5px; font-weight: 700; color: #c4b5fd; text-decoration: none; }
-  .astat-ig-a:hover { color: #a78bfa; }
-  .astat-marquee { overflow: hidden; padding: 12px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
-  .astat-track { display: flex; gap: 12px; width: max-content; animation: astat-slide 60s linear infinite; }
-  .astat-marquee:hover .astat-track { animation-play-state: paused; }
-  .astat-track a { flex: 0 0 auto; border-radius: 10px; overflow: hidden; border: 1px solid #23262f; position: relative; }
-  .astat-track a.reel::after { content:"▶"; position: absolute; top: 6px; right: 8px;
-    font-size: 10px; color: #fff; background: rgba(0,0,0,.55); border-radius: 4px; padding: 2px 5px; }
-  .astat-track img { width: 132px; height: 132px; object-fit: cover; display: block; transition: transform .3s; }
-  .astat-track a:hover img { transform: scale(1.06); }
-  @keyframes astat-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
-  @media (prefers-reduced-motion: reduce) { .astat-track { animation: none; } }
-  @media (max-width: 700px) {
-    .astat-grid { grid-template-columns: 1fr; }
-    .astat-track img { width: 104px; height: 104px; }
-  }
-</style>
-<script>
-  (function () {
-    var el = document.getElementById("astat-count");
-    if (!el) return;
-    var target = parseInt(el.getAttribute("data-count"), 10) || 0;
-    var done = false;
-    function fmt(n) { return n.toLocaleString("en-SG"); }
-    function run() {
-      if (done) return; done = true;
-      var t0 = null, dur = 1600;
-      function tick(t) {
-        if (!t0) t0 = t;
-        var p = Math.min((t - t0) / dur, 1);
-        el.textContent = fmt(Math.floor(target * (1 - Math.pow(1 - p, 3))));
-        if (p < 1) requestAnimationFrame(tick); else el.textContent = fmt(target);
-      }
-      requestAnimationFrame(tick);
-    }
-    if ("IntersectionObserver" in window) {
-      var io = new IntersectionObserver(function (es) {
-        es.forEach(function (e) { if (e.isIntersecting) { run(); io.disconnect(); } });
-      }, { rootMargin: "120px 0px" });
-      io.observe(el);
-    } else { run(); }
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      done = true; el.textContent = fmt(target);
-    }
-  })();
-</script>
+{{/* ---------- CATALOGUE PREVIEW ---------- */}}
+<section class="lp-sec"><div class="lp-wrap">
+  <div class="lp-sh"><span class="lp-no">01 /</span><h2>The catalogue</h2><span class="lp-rule"></span></div>
+  <div class="lp-grid">
+    <a class="lp-card" href="/catalogue/carbon-weave/"><span class="lp-tag">Best seller</span><img src="/catalogue/carbon-weave/feature.webp" alt="3D carbon weave number plate Singapore" loading="lazy"><div class="lp-cap"><h3>Carbon Weave</h3><p>Matt or metallic — the tuner favourite</p></div></a>
+    <a class="lp-card" href="/catalogue/glossy-black-euro/"><img src="/catalogue/glossy-black-euro/feature.webp" alt="Glossy black euro number plate" loading="lazy"><div class="lp-cap"><h3>Glossy Black Euro</h3><p>Deep mirror gloss, 2K clearcoat</p></div></a>
+    <a class="lp-card" href="/catalogue/pearl-white/"><img src="/catalogue/pearl-white/feature.webp" alt="Pearl white 3D number plate" loading="lazy"><div class="lp-cap"><h3>Pearl White</h3><p>Pearl-shift lacquer that moves with the light</p></div></a>
+    <a class="lp-card" href="/catalogue/metallic-silver/"><img src="/catalogue/metallic-silver/feature.webp" alt="Metallic silver 3D number plate" loading="lazy"><div class="lp-cap"><h3>Metallic Silver</h3><p>Mipa silver, two flake effects</p></div></a>
+    <a class="lp-card" href="/catalogue/rainbow-stars/"><img src="/catalogue/rainbow-stars/feature.webp" alt="Rainbow stars 3D number plate" loading="lazy"><div class="lp-cap"><h3>Rainbow Stars</h3><p>Reflective stars, quiet by day, alive at night</p></div></a>
+    <a class="lp-card" href="/catalogue/rough-matte/"><span class="lp-tag">1-2 days</span><img src="/catalogue/rough-matte/feature.webp" alt="Rough matte 3D number plate" loading="lazy"><div class="lp-cap"><h3>Rough Matte</h3><p>Textured stealth build — no lacquer needed</p></div></a>
+  </div>
+  <p style="margin-top:24px"><a class="lp-btn o" href="/catalogue/">All 21 products →</a></p>
+</div></section>
 
-{{/* JotForm widget ID - SINGLE SOURCE. JotForm mounts into the div whose id
-     is "JFWebsiteWidget-<id>", so this value must be identical in the div and
-     in the loader below. Change it here only. */}}
+{{/* ---------- SPEC SHEET ---------- */}}
+<section class="lp-sec lp-sec-alt"><div class="lp-wrap">
+  <div class="lp-sh"><span class="lp-no">02 /</span><h2>Spec sheet</h2><span class="lp-rule"></span></div>
+  <div class="lp-spec">
+    <div class="r"><div class="k">Plate standard</div><div class="v">3D printed lettering. OneMotoring compliant standard specification.</div></div>
+    <div class="r"><div class="k">Base material</div><div class="v">3 mm thick casted acrylic, laser-cut corners.</div></div>
+    <div class="r"><div class="k">Finish</div><div class="v">Automotive-grade MIPA Germany paint system &amp; 2K clearcoat.</div></div>
+    <div class="r"><div class="k">Application</div><div class="v">Lettering bonded onto the base casted acrylic. Built for Singapore heat and rain.</div></div>
+    <div class="r"><div class="k">Build time</div><div class="v">1–2 working days (no lacquer) · 2–4 days lacquered. Some custom designs may exceed 4 days or more.</div></div>
+  </div>
+</div></section>
+
+{{/* ---------- THE LINE ---------- */}}
+<section class="lp-sec"><div class="lp-wrap">
+  <div class="lp-sh"><span class="lp-no">03 /</span><h2>The line</h2><span class="lp-rule"></span></div>
+  <div class="lp-steps">
+    <div class="lp-step"><div class="n">STAGE 01</div><h3>Scan &amp; quote</h3><p>WhatsApp your registration number — we checksum-check it and quote your finish on the spot.</p></div>
+    <div class="lp-step"><div class="n">STAGE 02</div><h3>Print</h3><p>Characters are 3D-printed from our own models. No stock lettering, no outsourced blanks.</p></div>
+    <div class="lp-step"><div class="n">STAGE 03</div><h3>Finish</h3><p>Hand-finished with MIPA Germany paint and 2K automotive clearcoat, then QC'd.</p></div>
+    <div class="lp-step"><div class="n">STAGE 04</div><h3>Fit</h3><p>Mounted at your block or collected at the workshop — free of charge with every set.</p></div>
+  </div>
+</div></section>
+
+{{/* ---------- GOOGLE REVIEWS ---------- */}}
+<section class="lp-sec lp-sec-alt"><div class="lp-wrap">
+  <div class="lp-sh"><span class="lp-no">04 /</span><h2>Rated 5.0 on Google</h2><span class="lp-rule"></span></div>
+  <p class="lp-lede">Real reviews from real car owners — pulled straight from our Google profile.</p>
+
 {{ $jotformID := "01a0f03a328870008125f42249feab02120f" }}
-<div id="reviews" style="min-height:400px">
+<div id="reviews" style="min-height:400px;margin-top:18px">
   <div id="JFWebsiteWidget-{{ $jotformID }}"></div>
 </div>
 <style>
@@ -184,5 +137,160 @@
     window.addEventListener("load", function () {
       setTimeout(loadWidget, 8000);
     });
+  })();
+</script>
+</div></section>
+
+{{/* ---------- CTA ---------- */}}
+<section class="lp-sec"><div class="lp-wrap">
+  <div class="lp-cta">
+    <h2>Want your car plates to stand out?</h2>
+    <p>We are Singapore's first custom number plates maker. Made freshly upon order in 2-4 working days from scratch. Text us your registration number and we'll take it from there.</p>
+    <a class="lp-btn g" href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20want%203D%20plates%20for%20my%20car%3A">WhatsApp +65 8826 1189</a>
+  </div>
+</div></section>
+
+<style>
+  /* ---- hero ---- */
+  .lp-hero { min-height: 64vh; display: flex; flex-direction: column; justify-content: center;
+    align-items: center; text-align: center; padding: 80px 20px 44px; position: relative; }
+  .lp-kicker { display: inline-block; font-family: "JetBrains Mono", monospace; font-size: 11.5px;
+    letter-spacing: .3em; text-transform: uppercase; color: #a78bfa; margin-bottom: 18px;
+    border: 1px solid rgba(167,139,250,.4); border-radius: 99px; padding: 7px 16px;
+    background: rgba(10,11,16,.55); backdrop-filter: blur(4px); }
+  .lp-h1 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .5px; font-size: clamp(44px, 9vw, 88px); line-height: .98; color: #fff !important; margin: 0; }
+  .lp-h1 em { font-style: normal; color: #a78bfa; }
+  .lp-sub { color: #c6ccd8; font-size: 17.5px; max-width: 54ch; margin-top: 18px; }
+  .lp-ctas { display: flex; gap: 12px; margin-top: 26px; flex-wrap: wrap; justify-content: center; }
+  .lp-btn { display: inline-block; text-decoration: none;
+    font-family: "Barlow Condensed", sans-serif !important;
+    font-weight: 700; letter-spacing: .14em; text-transform: uppercase; font-size: 17px;
+    padding: 14px 26px; border-radius: 4px; }
+  .lp-btn.g { background: #25d366; color: #03130a; }
+  .lp-btn.g:hover { filter: brightness(1.08); }
+  .lp-btn.o { border: 1px solid #3a4150; color: #eef0f6; }
+  .lp-btn.o:hover { border-color: #a78bfa; color: #a78bfa; }
+  /* override site-wide Michroma/italic heading rules on the new home sections */
+  .lp-hero .lp-h1, .lp-sec h2, .lp-cap h3, .lp-step h3, .lp-cta h2, .lp-sh h2 {
+    font-family: "Barlow Condensed", "Michroma", sans-serif !important;
+    font-style: normal !important; letter-spacing: .5px; text-transform: uppercase;
+  }
+  .lp-social { margin-top: 24px; opacity: .9; }
+
+  /* ---- shared ---- */
+  .lp-wrap { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+  .lp-sec { padding: 56px 0; position: relative; }
+  .lp-sec-alt { background: rgba(16,18,26,.55); border-top: 1px solid #23262f; border-bottom: 1px solid #23262f; }
+  .lp-sh { display: flex; align-items: baseline; gap: 14px; margin-bottom: 26px; }
+  .lp-no { font-family: "JetBrains Mono", monospace; font-size: 12px; color: #a78bfa; letter-spacing: .2em; }
+  .lp-sh h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .5px; font-size: clamp(24px, 4vw, 36px); margin: 0; color: #eef0f6; }
+  .lp-rule { flex: 1; height: 1px; background: #23262f; }
+  .lp-lede { color: #9ca3af; font-size: 16.5px; max-width: 60ch; }
+
+  /* ---- catalogue grid ---- */
+  .lp-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
+  .lp-card { border: 1px solid #23262f; background: rgba(18,20,26,.85); text-decoration: none;
+    overflow: hidden; position: relative; border-radius: 12px; transition: border-color .2s, transform .2s; }
+  .lp-card:hover { border-color: #a78bfa; transform: translateY(-3px); }
+  .lp-card img { width: 100%; aspect-ratio: 4/3; object-fit: cover; display: block; }
+  .lp-cap { padding: 13px 15px 15px; }
+  .lp-cap h3 { font-family: "Barlow Condensed", sans-serif; font-size: 18px; font-weight: 700;
+    letter-spacing: .1em; text-transform: uppercase; margin: 0; color: #eef0f6; }
+  .lp-cap p { font-size: 13.5px; color: #9ca3af; margin: 3px 0 0; }
+  .lp-tag { position: absolute; top: 10px; left: 10px; background: #000c; font-family: "JetBrains Mono", monospace;
+    font-size: 9.5px; letter-spacing: .14em; color: #a78bfa; padding: 4px 7px; border-radius: 2px; text-transform: uppercase; }
+  @media (max-width: 900px) { .lp-grid { grid-template-columns: 1fr 1fr; } }
+  @media (max-width: 540px) { .lp-grid { gap: 10px; } .lp-cap { padding: 9px 10px 11px; } .lp-cap p { display: none; } }
+
+  /* ---- spec sheet ---- */
+  .lp-spec { border: 1px solid #23262f; background: rgba(18,20,26,.85); border-radius: 12px; overflow: hidden; }
+  .lp-spec .r { display: grid; grid-template-columns: 220px 1fr; border-top: 1px solid #23262f; }
+  .lp-spec .r:first-child { border-top: 0; }
+  .lp-spec .k { font-family: "JetBrains Mono", monospace; font-size: 11.5px; letter-spacing: .14em;
+    color: #a78bfa; padding: 16px 20px; text-transform: uppercase; background: rgba(13,15,20,.9); }
+  .lp-spec .v { padding: 16px 20px; font-size: 16px; color: #dfe3ea; }
+  @media (max-width: 640px) { .lp-spec .r { grid-template-columns: 1fr; } .lp-spec .k { padding-bottom: 2px; } }
+
+  /* ---- the line ---- */
+  .lp-steps { display: grid; grid-template-columns: repeat(4, 1fr); border: 1px solid #23262f; border-radius: 12px; overflow: hidden; }
+  .lp-step { padding: 24px 20px; border-left: 1px solid #23262f; background: rgba(18,20,26,.85); }
+  .lp-step:first-child { border-left: 0; }
+  .lp-step .n { font-family: "JetBrains Mono", monospace; color: #f5b400; font-size: 11.5px; letter-spacing: .2em; }
+  .lp-step h3 { font-family: "Barlow Condensed", sans-serif; font-size: 19px; font-weight: 700;
+    margin: 10px 0 8px; color: #eef0f6; text-transform: uppercase; letter-spacing: .06em; }
+  .lp-step p { font-size: 14.5px; color: #9ca3af; margin: 0; }
+  @media (max-width: 900px) { .lp-steps { grid-template-columns: 1fr 1fr; }
+    .lp-step { border-left: 0; border-top: 1px solid #23262f; }
+    .lp-step:first-child, .lp-step:nth-child(2) { border-top: 0; } }
+  @media (max-width: 560px) { .lp-steps { grid-template-columns: 1fr; } .lp-step { border-top: 1px solid #23262f; } .lp-step:first-child { border-top: 0; } }
+
+  /* ---- cta ---- */
+  .lp-cta { border: 1px solid #a78bfa; border-radius: 16px; padding: 52px 28px; text-align: center;
+    background: radial-gradient(130% 160% at 50% -20%, rgba(167,139,250,.15), transparent 55%), rgba(18,20,26,.85); }
+  .lp-cta h2 { font-family: "Barlow Condensed", sans-serif; font-weight: 700; text-transform: uppercase;
+    letter-spacing: .5px; font-size: clamp(24px, 4vw, 36px); margin: 0 0 10px; color: #eef0f6; }
+  .lp-cta p { color: #9ca3af; max-width: 56ch; margin: 0 auto 24px; font-size: 17px; }
+
+  /* ---- stats band ---- */
+  .astat { max-width: 1100px; margin: 0 auto 8px; padding: 0 20px; }
+  .astat-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; }
+  .astat-cell { border: 1px solid #23262f; border-radius: 14px; background: rgba(16,18,26,.78);
+    padding: 22px 18px; text-align: center; backdrop-filter: blur(6px); }
+  .astat-num { font-family: Michroma, sans-serif; font-size: clamp(26px, 4.4vw, 40px);
+    color: #a78bfa; line-height: 1; letter-spacing: 1px; font-variant-numeric: tabular-nums; }
+  .astat-num .plus { color: #f5d400; }
+  .astat-lbl { margin-top: 10px; font-size: 12.5px; letter-spacing: .06em; text-transform: uppercase;
+    color: #9ca3af; line-height: 1.5; }
+  .astat-ig { margin-top: 14px; border: 1px solid #23262f; border-radius: 14px;
+    background: rgba(16,18,26,.78); overflow: hidden; }
+  .astat-ig-head { display: flex; justify-content: space-between; align-items: center;
+    padding: 12px 16px; border-bottom: 1px solid #23262f; }
+  .astat-ig-t { font-size: 12.5px; letter-spacing: .14em; text-transform: uppercase; color: #a78bfa; }
+  .astat-ig-a { font-size: 12.5px; font-weight: 700; color: #c4b5fd; text-decoration: none; }
+  .astat-ig-a:hover { color: #a78bfa; }
+  .astat-marquee { overflow: hidden; padding: 12px 0; -webkit-mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); mask-image: linear-gradient(90deg, transparent, #000 6%, #000 94%, transparent); }
+  .astat-track { display: flex; gap: 12px; width: max-content; animation: astat-slide 60s linear infinite; }
+  .astat-marquee:hover .astat-track { animation-play-state: paused; }
+  .astat-track a { flex: 0 0 auto; border-radius: 10px; overflow: hidden; border: 1px solid #23262f; position: relative; }
+  .astat-track a.reel::after { content: "▶"; position: absolute; top: 6px; right: 8px;
+    font-size: 10px; color: #fff; background: rgba(0,0,0,.55); border-radius: 4px; padding: 2px 5px; }
+  .astat-track img { width: 132px; height: 132px; object-fit: cover; display: block; transition: transform .3s; }
+  .astat-track a:hover img { transform: scale(1.06); }
+  @keyframes astat-slide { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+  @media (prefers-reduced-motion: reduce) { .astat-track { animation: none; } }
+  @media (max-width: 700px) {
+    .astat-grid { grid-template-columns: 1fr; }
+    .astat-track img { width: 104px; height: 104px; }
+  }
+</style>
+<script>
+  (function () {
+    var el = document.getElementById("astat-count");
+    if (!el) return;
+    var target = parseInt(el.getAttribute("data-count"), 10) || 0;
+    var done = false;
+    function fmt(n) { return n.toLocaleString("en-SG"); }
+    function run() {
+      if (done) return; done = true;
+      var t0 = null, dur = 1600;
+      function tick(t) {
+        if (!t0) t0 = t;
+        var p = Math.min((t - t0) / dur, 1);
+        el.textContent = fmt(Math.floor(target * (1 - Math.pow(1 - p, 3))));
+        if (p < 1) requestAnimationFrame(tick); else el.textContent = fmt(target);
+      }
+      requestAnimationFrame(tick);
+    }
+    if ("IntersectionObserver" in window) {
+      var io = new IntersectionObserver(function (es) {
+        es.forEach(function (e) { if (e.isIntersecting) { run(); io.disconnect(); } });
+      }, { rootMargin: "120px 0px" });
+      io.observe(el);
+    } else { run(); }
+    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
+      done = true; el.textContent = fmt(target);
+    }
   })();
 </script>
