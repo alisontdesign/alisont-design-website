@@ -24,19 +24,19 @@
 <section class="astat" aria-label="AlisonT by the numbers">
   <div class="astat-grid">
     <div class="astat-cell">
-      <div class="astat-num"><span id="astat-count" data-count="1245">0</span><span class="plus">+</span></div>
+      <div class="astat-num"><span id="astat-count" class="astat-cnt" data-count="1245">0</span><span class="plus">+</span></div>
       <div class="astat-lbl">custom plates made<br>&amp; counting</div>
     </div>
     <div class="astat-cell">
-      <div class="astat-num">342</div>
+      <div class="astat-num"><span class="astat-cnt" data-count="342">0</span></div>
       <div class="astat-lbl">5-star reviews<br>on Google</div>
     </div>
     <div class="astat-cell">
-      <div class="astat-num">100%</div>
+      <div class="astat-num"><span class="astat-cnt" data-count="100">0</span>%</div>
       <div class="astat-lbl">crafted in singapore<br>from scratch</div>
     </div>
     <div class="astat-cell">
-      <div class="astat-num">3MM</div>
+      <div class="astat-num"><span class="astat-cnt" data-count="3">0</span>MM</div>
       <div class="astat-lbl">premium lasercut casted acrylic<br>MIPA CS95 lacquer &amp; paint system</div>
     </div>
   </div>
@@ -272,30 +272,30 @@
 </style>
 <script>
   (function () {
-    var el = document.getElementById("astat-count");
-    if (!el) return;
-    var target = parseInt(el.getAttribute("data-count"), 10) || 0;
-    var done = false;
-    function fmt(n) { return n.toLocaleString("en-SG"); }
-    function run() {
-      if (done) return; done = true;
-      var t0 = null, dur = 1600;
+    var cells = [].slice.call(document.querySelectorAll(".astat-cnt"));
+    if (!cells.length) return;
+    var fmt = function (n) { return n.toLocaleString("en-US"); };
+    function animate(el) {
+      var target = parseInt(el.getAttribute("data-count"), 10) || 0;
+      var dur = 1400 + Math.min(target, 1200); // bigger numbers run a touch longer
+      var t0 = null;
       function tick(t) {
-        if (!t0) t0 = t;
+        if (t0 === null) t0 = t;
         var p = Math.min((t - t0) / dur, 1);
-        el.textContent = fmt(Math.floor(target * (1 - Math.pow(1 - p, 3))));
+        var eased = 1 - Math.pow(1 - p, 3);
+        el.textContent = fmt(Math.round(target * eased));
         if (p < 1) requestAnimationFrame(tick); else el.textContent = fmt(target);
       }
       requestAnimationFrame(tick);
     }
+    function startAll() {
+      cells.forEach(function (el, i) { setTimeout(function () { animate(el); }, i * 180); });
+    }
     if ("IntersectionObserver" in window) {
       var io = new IntersectionObserver(function (es) {
-        es.forEach(function (e) { if (e.isIntersecting) { run(); io.disconnect(); } });
-      }, { rootMargin: "120px 0px" });
-      io.observe(el);
-    } else { run(); }
-    if (window.matchMedia && window.matchMedia("(prefers-reduced-motion: reduce)").matches) {
-      done = true; el.textContent = fmt(target);
-    }
+        if (es.some(function (x) { return x.isIntersecting; })) { io.disconnect(); startAll(); }
+      }, { threshold: 0.35 });
+      io.observe(cells[0].closest(".astat-grid") || cells[0]);
+    } else { startAll(); }
   })();
 </script>
