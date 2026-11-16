@@ -38,7 +38,7 @@ Converting schemes (for example normal car to ROPC)? "Upon successful conversion
 
 Whatever your route, the replacement must satisfy the same rules as the original: flat rectangular plate securely fastened, characters 70 mm high with 10 mm spacing, front and rear visible and unobstructed, rear plate illuminated at night [3]. AlisonT Design prints replacement sets to exactly that spec, for every series and scheme — and we'll flag it if your vehicle's scheme needs a sealing visit, so nothing surprises you at the inspection centre.
 
-[Order a replacement set on WhatsApp](https://wa.me/6588261189?text=Hi%2C%20I%20need%20replacement%20plates%20(re damaged).%20My%20reg%20no%3A) · [Plate rules guide](/guides/plate-rules/) · [Checksum calculator](/plate-checksum/)
+[Order a replacement set on WhatsApp](https://wa.me/6588261189?text=Hi%2C%20I%20need%20replacement%20plates.%20My%20reg%20no%3A) · [Plate rules article](/articles/3d-plates-legal-singapore/) · [Checksum calculator](/plate-checksum/)
 
 ## Sources
 

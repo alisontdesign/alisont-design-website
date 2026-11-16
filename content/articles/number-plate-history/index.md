@@ -39,7 +39,7 @@ From 1984 the S series returned — now as three letters, starting at SBA — an
 
 ## The checksum letter
 
-Along the way Singapore added its distinctive checksum letter: older plates like SG5999 were re-issued with a suffix, becoming SG5999Z [2]. The letter is computed from the characters in front of it — you can calculate any plate's checksum with our free [number plate checksum calculator](/plate-checksum/), and the full method is in our [plate rules guide](/guides/plate-rules/).
+Along the way Singapore added its distinctive checksum letter: older plates like SG5999 were re-issued with a suffix, becoming SG5999Z [2]. The letter is computed from the characters in front of it — you can calculate any plate's checksum with our free [number plate checksum calculator](/plate-checksum/), and the full method is in our [plate rules article](/articles/3d-plates-legal-singapore/).
 
 ## Why the history matters to you
 
