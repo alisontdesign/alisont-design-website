@@ -25,9 +25,14 @@ How we started, and what we strive for.
 {{< /typeit >}}
 {{< /lead >}}
 -->
-Welcome to AlisonT Design, where automotive styling meets advanced manufacturing.
+Every order starts from 3D model on our screens.\
+Handcrafted in our small workshop in Punggol.\
+Not resellers. No middleman.\
+Every piece, 100% from scratch.
 
-Based in Singapore, we craft our own custom 3D-printed car plates from scratch. We know that for car enthusiasts, the details matter. A license plate shouldn’t just be an afterthought --- it should complement your vehicle’s aesthetic. By leveraging advanced 3D printing technology, we create dimensional, high-quality plates that stand out from the traditional. At AlisonT Design, we take pride and passion in crafting every number plates we serve to our customers.
+## We don't buy in plates. We make them.
+
+Our number plates are 100% custom made from scratch ourself. We start with a 3D model of every character and print our own lettering in-house. That means we can accommodate almost any dimension you want: sizing, ratios, angles, tapering. If you can sketch it, we can build it. That's why the possibilities are almost endless.
 
 
 ### Engineered for the Road
