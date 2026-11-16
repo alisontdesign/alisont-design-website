@@ -65,3 +65,38 @@
 </script>
   {{- end -}}
 {{- end -}}
+{{- if .IsHome -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "LocalBusiness",
+  "@id": {{ (print .Site.BaseURL "#business") | jsonify | safeJS }},
+  "name": "Alisont Design Pte Ltd",
+  "alternateName": "AlisonT Design",
+  "url": {{ .Site.BaseURL | jsonify | safeJS }},
+  "logo": {{ (print .Site.BaseURL "img/alisont_logo.webp") | jsonify | safeJS }},
+  "image": {{ (print .Site.BaseURL "img/alisont_logo.webp") | jsonify | safeJS }},
+  "description": "Singapore's first custom 3D-printed number plate workshop. Car, motorcycle and e-bike plates, custom logos, acrylic cases and frameless kits - designed, printed, sprayed and finished in house in Punggol.",
+  "telephone": "+6588261189",
+  "email": "alisontdesign@gmail.com",
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "619D Punggol Drive",
+    "addressLocality": "Singapore",
+    "postalCode": "824619",
+    "addressCountry": "SG"
+  },
+  "geo": {
+    "@type": "GeoCoordinates",
+    "latitude": 1.4021459,
+    "longitude": 103.9111893
+  },
+  "areaServed": { "@type": "Country", "name": "Singapore" },
+  "makesOffer": [
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom 3D printed number plates" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Motorcycle and e-bike number plates" } },
+    { "@type": "Offer", "itemOffered": { "@type": "Service", "name": "Custom plate logos, acrylic cases and frameless mounting kits" } }
+  ]
+}
+</script>
+{{- end -}}
