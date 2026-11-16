@@ -111,3 +111,8 @@ body, html, .dark body, .bg-neutral, .dark .bg-neutral-800, #site-main {
 #menu-blur {
   background: rgba(15, 23, 42, 0.6) !important;
 }
+
+/* Larger social media icons in the hero */
+.mt-3.mb-10 .flex svg.icon,
+.mt-3.mb-10 .flex svg { width: 2rem; height: 2rem; }
+.mt-3.mb-10 .flex a { padding-left: .35rem; padding-right: .35rem; }
