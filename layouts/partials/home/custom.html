@@ -91,6 +91,29 @@
   </div>
 </div></section>
 
+{{/* ---------- WHY US ---------- */}}
+<section class="lp-sec"><div class="lp-wrap">
+  <div class="lp-sh"><span class="lp-no">03 /</span><h2>What makes us different?</h2><span class="lp-rule"></span></div>
+  <div class="lp-why">
+    <div class="lp-why-i">
+      <h3>We don't buy in plates. We make them.</h3>
+      <p>Almost every "custom plate" shop starts where we finish — with someone else's product. We start with a 3D model of every character and print our own lettering in-house. That means we can accommodate almost any dimension you want: sizing, ratios, angles, tapering. If you can sketch it, we can build it. That's why the possibilities are almost endless.</p>
+    </div>
+    <div class="lp-why-i">
+      <h3>Our own spray booth, our own colours.</h3>
+      <p>We do our own spraying in-house with the MIPA Germany paint and clearcoat system. Matte in any colour. Full gloss. Or somewhere in between — we dial the sheen exactly where you want it, dulling the gloss or bringing it back by mixing in more clearcoat. Want a finish that isn't on the menu? That's the point of owning the booth: the menu is ours to write. We can also cut any casted acrylic to your measurements, to your shape, to your spec.</p>
+    </div>
+    <div class="lp-why-i">
+      <h3>Everything in-house means we QC everything in-house.</h3>
+      <p>Because nothing is outsourced, every single plate passes through our hands and gets inspected before it leaves. Everything we make is handmade — and with handmade, slight imperfections are possible. That's exactly why our QC matters: we make sure <em>we</em> love how it looks before you take it home.</p>
+    </div>
+    <div class="lp-why-i">
+      <h3>We don't just hand you the plate and wave goodbye.</h3>
+      <p>We take pride in this craft, and we read every bit of feedback we get. If something's ever off — any issue, any worry — we're here to listen and put it right. We're not selling you a plate. We're looking after your car's number plate needs, before and after the handover.</p>
+    </div>
+  </div>
+</div></section>
+
 {{/* ---------- CTA ---------- */}}
 <section class="lp-sec"><div class="lp-wrap">
   <div class="lp-cta">
@@ -175,6 +198,15 @@
     .lp-step { border-left: 0; border-top: 1px solid #23262f; }
     .lp-step:first-child, .lp-step:nth-child(2) { border-top: 0; } }
   @media (max-width: 560px) { .lp-steps { grid-template-columns: 1fr; } .lp-step { border-top: 1px solid #23262f; } .lp-step:first-child { border-top: 0; } }
+
+  /* ---- why us ---- */
+  .lp-why { display: grid; grid-template-columns: 1fr 1fr; gap: 22px 26px; }
+  .lp-why-i h3 { font-family: "Barlow Condensed", sans-serif !important; font-style: normal !important;
+    font-size: 21px; font-weight: 700; letter-spacing: .5px; text-transform: uppercase;
+    color: #a78bfa; margin: 0 0 8px; }
+  .lp-why-i p { color: #c6ccd8; font-size: 15.5px; line-height: 1.65; margin: 0; }
+  .lp-why-i p em { color: #eef0f6; font-style: normal; }
+  @media (max-width: 800px) { .lp-why { grid-template-columns: 1fr; gap: 20px; } }
 
   /* ---- cta ---- */
   .lp-cta { border: 1px solid #a78bfa; border-radius: 16px; padding: 36px 26px; text-align: center;
