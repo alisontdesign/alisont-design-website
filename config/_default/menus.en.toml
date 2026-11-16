@@ -25,6 +25,11 @@
   url = "/plate-checksum/"
   weight = 10
 [[main]]
+  name = "Articles"
+  pageRef = "articles"
+  weight = 20
+
+[[main]]
   name = "Contact"
   pageRef = "contact"
   weight = 10
