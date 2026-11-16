@@ -116,12 +116,12 @@ cascade:
 </details>
 <details>
   <summary>I ordered a custom 3D plate. Do the letters still need to follow this?</summary>
-  <p>The registration number itself is whatever LTA assigned, but the physical letters and numbers on your plate must meet OneMotoring size standards. Our 3D-printed plates are precision-cut to the 70 mm × 50 mm × 10 mm specification.</p>
+  <p>The registration number is LTA assigned, The physical letters and numbers on your plate must meet OneMotoring size standards.</p>
 </details>
 
 <section class="cta">
   <h2 style="margin-top:0">Want your plates to stand out?</h2>
-  <p>We craft Singapore's first 3D-printed number plates, in 15+ finishes, made in about a working day. Text us your registration number and we'll take it from there.</p>
+  <p>We are Singapore's first custom number plates maker. Made freshly upon order in 2-4 working days from scratch. Text us your registration number and we'll take it from there.</p>
   <a class="btn" href="https://wa.me/6588261189?text=Hi%20Sean%2C%20I%20used%20your%20checksum%20tool%20and%20want%203D%20plates%20for%20my%20car%3A">WhatsApp us on +65 8826 1189</a>
 </section>
 </div>
