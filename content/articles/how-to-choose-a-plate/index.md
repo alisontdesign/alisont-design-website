@@ -11,7 +11,7 @@ showRelated: true
 showBreadCrumbs: true
 ---
 
-Walk into any shop and every plate looks the same until you see it on your car. At AlisonT Design, photos and videos will always look different and do injustice to the product in real life!
+Walk into any shop and every plate looks the same until you see it on your car. At AlisonT Design, photos and videos can never do justice to the product in real life!
 
 Follow me — build your plate step by step.
 
