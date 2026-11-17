@@ -13,6 +13,14 @@ showBreadCrumbs: true
 
 Short answer: yes — as long as the plate follows the Road Traffic rules, the material or printing method doesn't matter. Long answer: here is every relevant rule, quoted from Singapore Statutes Online, so you know exactly what "legal" means before you buy any plate.
 
+<figure style="margin:2rem 0">
+  <video controls preload="none" playsinline poster="/video/plate-legal-faq-poster.jpg" style="width:100%;max-width:560px;margin:0 auto;display:block;border-radius:12px;border:1px solid #23262f">
+    <source src="/video/plate-legal-faq.mp4" type="video/mp4">
+    Your browser can't play this video.
+  </video>
+  <figcaption style="text-align:center;color:#9ca3af;font-size:.85rem;margin-top:.6rem">🎬 The 2 questions we get asked every week — trimmed plates: legal? and does "LTA approved" even exist? (Filmed at 2:26AM. Blame the OBU 2.0.)</figcaption>
+</figure>
+
 ## What the law regulates
 
 The Road Traffic (Motor Vehicles, Registration and Licensing) Rules say your registration number must be "exhibited on a flat rectangular plate or on a flat unbroken rectangular surface forming part of the motor vehicle" and that the plate "must at all times be securely fastened to the motor vehicle" [3]. Note what the law does *not* say: it never specifies metal, gel, acrylic or a printing method. A 3D-printed acrylic plate is legal if it meets the format rules below.
