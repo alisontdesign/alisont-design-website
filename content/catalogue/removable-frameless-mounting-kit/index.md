@@ -24,3 +24,7 @@ cascade:
 * Removable: take the plate off cleanly when you sell or swap
 * Suits standard front and rear plate sizes
 * Fitted in-house by AlisonT Design, Singapore
+
+## SEE IT IN ACTION
+
+{{< gallery images="img/*" >}}
