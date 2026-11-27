@@ -1,5 +1,5 @@
 ---
-title: "Basic Satin Matte"
+title: "2D Satin Matt"
 weight: 12
 draft: false
 description: "Satin matte 3D number plates with a soft, glare-free finish. Solid raised characters on satin acrylic, crafted in Singapore."

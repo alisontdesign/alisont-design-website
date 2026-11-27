@@ -1,5 +1,5 @@
 ---
-title: "Basic Black Euro"
+title: "3D Naked Black Euro"
 weight: 9
 draft: false
 description: "Black Euro-style 3D number plates for Singapore cars. Solid raised characters on a black baseplate, laser-cut and made to order."

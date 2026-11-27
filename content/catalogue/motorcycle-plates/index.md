@@ -1,5 +1,5 @@
 ---
-title: "Motorcycle Plates"
+title: "Motorcycle Plates Gallery"
 weight: 100
 draft: false
 description: "Compact 3D motorcycle number plates for Singapore bikes. Solid raised characters, UV-resistant laser-cut acrylic, ANPR-friendly."

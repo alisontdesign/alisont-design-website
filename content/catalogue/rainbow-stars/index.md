@@ -1,5 +1,5 @@
 ---
-title: "Rainbow Stars"
+title: "3D Rainbow Stars"
 weight: 2
 draft: false
 description: "Rainbow-stars 3D number plates that sparkle in the light — characters laminated with Oracal road-safety reflective film. UV resistant, Singapore."

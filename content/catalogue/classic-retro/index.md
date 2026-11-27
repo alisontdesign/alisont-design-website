@@ -1,5 +1,5 @@
 ---
-title: "Classic Retro"
+title: "Classic Retro Gallery"
 weight: 3
 draft: false
 description: "Classic retro-font 3D number plates in metallic silver — vintage styling with a MIPA automotive spray finish on satin acrylic, made in Singapore."

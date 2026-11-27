@@ -1,5 +1,5 @@
 ---
-title: "Basic Flat White"
+title: "3D Naked White"
 weight: 5
 draft: false
 description: "Flat white 3D number plates for everyday cars in Singapore. Solid block characters on a white acrylic baseplate, ANPR-friendly, made locally."
