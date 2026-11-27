@@ -2,7 +2,7 @@
 title: "3D Matt on Matt Gallery"
 weight: 13
 draft: false
-description: "Low-gloss matte-on-matte 3D number plates in Singapore — raised characters finished in MIPA matte lacquer on satin acrylic. Optional embedded logo."
+description: "3D Matt on Matt number plates in Singapore — low-gloss raised characters finished in MIPA matte lacquer on satin acrylic. Optional embedded logo."
 category: "Car Plates"
 tags: ["matte"]
 series_order: 1

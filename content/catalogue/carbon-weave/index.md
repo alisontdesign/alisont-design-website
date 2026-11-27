@@ -2,7 +2,7 @@
 title: "3D Carbon Weave"
 weight: 4
 draft: false
-description: "Carbon-weave 3D number plates in metallic or matte carbon. Real carbon look, clearcoated and UV resistant, made in Singapore."
+description: "3D Carbon Weave number plates in metallic or matte carbon. Real carbon look, clearcoated and UV resistant, made in Singapore."
 category: "Car Plates"
 tags: ["metallic", "weave", "carbon"]
 series_order: 1

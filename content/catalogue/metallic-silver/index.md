@@ -2,7 +2,7 @@
 title: "3D Metallic Silver"
 weight: 8
 draft: false
-description: "Metallic silver 3D number plates in small or big flake. Automotive spray paint with German clearcoat, made to order in Singapore."
+description: "3D Metallic Silver number plates in small or big flake. Automotive spray paint with German clearcoat, made to order in Singapore."
 category: "Car Plates"
 tags: ["metallic", "clearcoated"]
 series_order: 1

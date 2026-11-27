@@ -2,7 +2,7 @@
 title: "3D Rough Matt"
 weight: 3
 draft: false
-description: "Rough-matte 3D number plates with a textured, non-glare finish. Reflective laminated characters, UV and chemical resistant, made in Singapore."
+description: "3D Rough Matt number plates with a textured, non-glare finish. Reflective laminated characters, UV and chemical resistant, made in Singapore."
 category: "Car Plates"
 series_order: 1
 tags: ["matte"]
