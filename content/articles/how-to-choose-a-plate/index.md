@@ -24,7 +24,7 @@ Follow me — build your plate step by step.
 
 ## 2. Pick your lettering type
 
-Now that you have decided which base colour you like, you get to choose the type of lettering. At AlisonT Design we have:
+Now that you have decided which base colour you like, you get to choose the type of lettering. At AlisonT Design we have (full comparison on the [Lettering Types](/catalogue/lettering-types/) page):
 
 - **Standard Letterings — 3 facets (U shaped):** Standard modern, bold strong.
 - **Classic Retro Letterings — 2 facets (V shaped):** [Classic Retro Gallery](/catalogue/classic-retro/). Futuristic vibes. Reflect better then Standard Letterings.
@@ -36,7 +36,7 @@ With the lettering type and base plate decided, we move on to the lettering colo
 **Black base**
 
 - **White letterings:** [3D Glossy White](/catalogue/glossy-white/), [3D Pearl White](/catalogue/pearl-white/)
-- **Silver letterings:** [3D Metallic Silver](/catalogue/metallic-silver/), Vicrom Hypersilver
+- **Silver letterings:** [3D Metallic Silver](/catalogue/metallic-silver/), [3D Vicrom](/catalogue/3d-vicrom/) (hyper silver)
 - **Special letterings:** [3D Frosted](/catalogue/frosted/) (looks silverish from far). Clear lacquer comes by default.
 
 **White / yellow base**
@@ -68,7 +68,7 @@ Honestly, just get the plate that you want! It's your car! Full black-out car wi
 
 - Add a **3D logo** — brand emblem or your own design ([Custom 3D Logo](/catalogue/custom-3d-logo/), [Custom Logo](/catalogue/custom-logo/)).
 - **Kerning adjustment work** — we can tighten or tune character spacing for an exact look; see the [kerning-adjusted example](/catalogue/kerning-adjusted/).
-- **Frameless kit** — We offer frameless installtion strictly for our customer only. 3M Double Sided Tape, Velcro Tape or Our own design Removeable Frameless Mounting Kit to finishes the installation. Of course we also have blanks brackets!
+- **Frameless kit** — We offer frameless installtion strictly for our customer only. [3M Double Sided Tape](/catalogue/3m-double-sided-tape-application/), [Velcro Tape](/catalogue/velcro-frameless-application/) or Our own design [Removable Frameless Mounting Kit](/catalogue/removable-frameless-mounting-kit/) to finishes the installation. Of course we also have blanks brackets!
 
 ## Still unsure? Come see samples in person
 

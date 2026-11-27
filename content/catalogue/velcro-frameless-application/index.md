@@ -4,7 +4,7 @@ weight: 2
 draft: false
 description: "Velcro frameless number plate application in Singapore. A removable hook-and-loop mounting service that keeps plates tidy and secure and comes off cleanly."
 category: "Services"
-tags: ["custom"]
+tags: []
 series_order: 1
 
 cascade:
