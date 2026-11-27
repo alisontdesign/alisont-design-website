@@ -4,7 +4,7 @@ weight: 102
 draft: false
 description: "Removable frameless number plate mounting kit from AlisonT Design Singapore. Drill-free fitting that holds plates securely and comes off cleanly when needed."
 category: "Accessories"
-tags: ["custom"]
+tags: []
 series_order: 1
 
 cascade:

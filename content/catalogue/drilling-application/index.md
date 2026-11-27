@@ -4,7 +4,7 @@ weight: 3
 draft: false
 description: "Number plate drilling service in Singapore. Clean, accurately spaced drilling for standard plate mounting, done carefully on your vehicle."
 category: "Services"
-tags: ["custom"]
+tags: []
 series_order: 1
 
 cascade:

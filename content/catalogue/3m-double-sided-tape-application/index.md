@@ -4,7 +4,7 @@ weight: 1
 draft: false
 description: "Professional 3M double sided tape plate application in Singapore. Genuine automotive-grade tape fitted to your number plates for a strong, clean, gap-free bond."
 category: "Services"
-tags: ["custom"]
+tags: []
 series_order: 1
 
 cascade:
