@@ -3,8 +3,6 @@ title: "Lettering Types"
 weight: 96
 draft: false
 description: "The two number plate lettering types we make — Classic Retro (V shaped, 2 facets) and Standard (U shaped, 3 facets) — and how to choose between them."
-category: "Custom Work"
-tags: ["custom"]
 series_order: 1
 
 cascade:
