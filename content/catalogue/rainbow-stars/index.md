@@ -1,8 +1,8 @@
 ---
-title: "Rainbow Stars"
+title: "3D Rainbow Stars"
 weight: 2
 draft: false
-description: "Rainbow-stars 3D number plates that sparkle in the light — characters laminated with Oracal road-safety reflective film. UV resistant, Singapore."
+description: "3D Rainbow Stars number plates that sparkle in the light — characters laminated with Oracal road-safety reflective film. UV resistant, Singapore."
 category: "Car Plates"
 tags: ["specialty", "reflective"]
 series_order: 1

@@ -19,15 +19,15 @@ Follow me — build your plate step by step.
 
 **European, Hong Kong or Japan vibes?** You have two directions:
 
-- **White reflective base with black lettering** at the front, **yellow reflective base with black lettering** at the rear ([Glossy Black Euro](/catalogue/glossy-black-euro/)).
-- Or **black glossy base** with white, silver or grey lettering ([Glossy White](/catalogue/glossy-white/)), or **black satin matte base** with white, silver or grey lettering ([3D Matte on Matte](/catalogue/3d-matte-on-matte/)).
+- **White reflective base with black lettering** at the front, **yellow reflective base with black lettering** at the rear ([3D Glossy Black Euro](/catalogue/glossy-black-euro/)).
+- Or **black glossy base** with white, silver or grey lettering ([3D Glossy White](/catalogue/glossy-white/)), or **black satin matte base** with white, silver or grey lettering ([3D Matt on Matt Gallery](/catalogue/3d-matte-on-matte/)).
 
 ## 2. Pick your lettering type
 
 Now that you have decided which base colour you like, you get to choose the type of lettering. At AlisonT Design we have:
 
 - **Standard Letterings — 3 facets (U shaped):** Standard modern, bold strong.
-- **Classic Retro Letterings — 2 facets (V shaped):** [Classic Retro](/catalogue/classic-retro/). Futuristic vibes. Reflect better then Standard Letterings.
+- **Classic Retro Letterings — 2 facets (V shaped):** [Classic Retro Gallery](/catalogue/classic-retro/). Futuristic vibes. Reflect better then Standard Letterings.
 
 ## 3. Pick your lettering colours
 
@@ -35,14 +35,14 @@ With the lettering type and base plate decided, we move on to the lettering colo
 
 **Black base**
 
-- **White letterings:** [Glossy White](/catalogue/glossy-white/), [Pearl White](/catalogue/pearl-white/)
-- **Silver letterings:** [Metallic Silver](/catalogue/metallic-silver/), Vicrom Hypersilver
-- **Special letterings:** [Frosted](/catalogue/frosted/) (looks silverish from far). Clear lacquer comes by default.
+- **White letterings:** [3D Glossy White](/catalogue/glossy-white/), [3D Pearl White](/catalogue/pearl-white/)
+- **Silver letterings:** [3D Metallic Silver](/catalogue/metallic-silver/), Vicrom Hypersilver
+- **Special letterings:** [3D Frosted](/catalogue/frosted/) (looks silverish from far). Clear lacquer comes by default.
 
 **White / yellow base**
 
-- **Black letterings:** [Glossy Black Euro](/catalogue/glossy-black-euro/), [Pearl Black](/catalogue/pearl-black/)
-- **Design letterings:** [Rainbow Stars](/catalogue/rainbow-stars/), [Carbon Weave](/catalogue/carbon-weave/), [Rough Matte](/catalogue/rough-matte/). *Lacquer is NOT applicable to these designs.*
+- **Black letterings:** [3D Glossy Black Euro](/catalogue/glossy-black-euro/), [3D Pearl Black](/catalogue/pearl-black/)
+- **Design letterings:** [3D Rainbow Stars](/catalogue/rainbow-stars/), [3D Carbon Weave](/catalogue/carbon-weave/), [3D Rough Matt](/catalogue/rough-matte/). *Lacquer is NOT applicable to these designs.*
 
 **Then choose the lacquer.** For Solid White, Solid Black, Metallic Silver and Pearl White/Black letterings, you decide whether the letter stays **naked**, gets **glossy lacquer**, or gets **matte lacquer**.
 
@@ -54,7 +54,7 @@ With the lettering type and base plate decided, we move on to the lettering colo
 This is a sheen decision, and it changes the whole character of the same colour.
 
 - **Glossy** — maximum contrast and that showroom wet look. Shows dust and swirl marks a bit easier.
-- **Satin matte** — the sweet spot most customers land on: [Basic Satin Matte](/catalogue/basic-satin-matte/) is subtle, modern and hides daily wear.
+- **Satin matte** — the sweet spot most customers land on: [2D Satin Matt](/catalogue/basic-satin-matte/) is subtle, modern and hides daily wear.
 
 If you're torn between two, [WhatsApp us a photo of your car](https://wa.me/6588261189?text=Hi%20Sean%2C%20not%20sure%20which%20finish%20suits%20my%20car%3A) and we'll advise honestly.
 

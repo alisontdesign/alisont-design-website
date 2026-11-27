@@ -1,8 +1,8 @@
 ---
-title: "Kerning-adjusted (Example)"
+title: "Kerning-adjustment (Examples)"
 weight: 99
 draft: false
-description: "Kerning-adjusted 3D number plates with perfectly balanced character spacing for a premium, high-end finish. Made in Singapore."
+description: "Kerning adjustment on 3D number plates with perfectly balanced character spacing for a premium, high-end finish. Made in Singapore."
 category: "Custom Work"
 tags: ["example"]
 series_order: 1

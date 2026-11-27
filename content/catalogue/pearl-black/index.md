@@ -1,8 +1,8 @@
 ---
-title: "Pearl Black"
+title: "3D Pearl Black"
 weight: 11
 draft: false
-description: "Pearl black 3D number plates with a deep, shimmering automotive finish. MIPA pearl coating and clearcoat, made in Singapore."
+description: "3D Pearl Black number plates with a deep, shimmering automotive finish. MIPA pearl coating and clearcoat, made in Singapore."
 category: "Car Plates"
 tags: ["pearl", "clearcoated"]
 series_order: 1
