@@ -1,6 +1,6 @@
 ---
 title: "About Us"
-description: "Meet AlisonT Design, the workshop behind Singapore's very first custom 3D-printed number plates - 24-hour turnaround, made locally for cars and bikes."
+description: "Meet AlisonT Design, the workshop behind Singapore's very first custom 3D-printed number plates - made to order in 1-4 working days, locally for cars and bikes."
 
 
 cascade:
@@ -50,7 +50,7 @@ WhatsApp: (+65) 8826 1189-->
 
 ## FAQ
 **Q: What is the turnaround time for custom plates?**\
-A: We produce most orders within 24 hours (1 business day). Once your order is confirmed, we will provide a precise ETA for when your plates will be ready and delivered.
+A: No-lacquer designs are made in 1–2 working days; lacquered designs take 2–4 working days (some custom designs may exceed 4). Once your order is confirmed, we will provide a precise ETA for when your plates will be ready and delivered.
 
 **Q: Are these plates LTA / OneMotoring compliant?**\
 A: While the LTA does not issue official "Certificates of Approval" for any aftermarket plates, our standard prints are precision-engineered to meet strict OneMotoring dimensional standards (70mm H x 50mm W x 10mm)\
