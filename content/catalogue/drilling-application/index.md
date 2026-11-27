@@ -23,3 +23,7 @@ cascade:
 * Suitable for car, motorcycle and e-bike plates
 * Screws and fasteners available
 * Carried out in our Punggol workshop, Singapore
+
+## RECENT WORK
+
+{{< gallery images="img/*" >}}
