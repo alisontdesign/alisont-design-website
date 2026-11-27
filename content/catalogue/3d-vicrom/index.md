@@ -24,4 +24,6 @@ cascade:
 * Matt or glossy lacquer finish
 * 3mm thick casted acrylic, laser-cut corners
 * Made to order in Singapore — timings may exceed standard lead times
+
+{{< gallery images="img/*" >}}
 {{< product-faq >}}
