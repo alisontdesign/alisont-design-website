@@ -1,6 +1,6 @@
 ---
-title: "Singapore's First Custom 3D Number Plates"
-description: "Singapore's first custom 3D number plates - crafted locally in Singapore for cars, motorcycles and e-bikes. Made to order in 1-4 working days, VEP/ANPR friendly."
+title: "Singapore's First 3D-Printed Custom Number Plates"
+description: "Singapore's first 3D-printed custom number plates - printed in recyclable PETG, crafted locally in Singapore for cars, motorcycles and e-bikes. Made to order in 1-4 working days, VEP/ANPR friendly."
 ---
 
 
