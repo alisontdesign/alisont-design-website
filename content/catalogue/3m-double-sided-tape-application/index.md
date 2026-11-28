@@ -23,3 +23,7 @@ cascade:
 * Clean, strong, gap-free bond
 * Suitable for car, motorcycle and e-bike plates
 * Carried out in our Punggol workshop, Singapore
+
+## RECENT WORK
+
+{{< gallery images="img/*" >}}
